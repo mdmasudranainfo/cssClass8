@@ -1,0 +1,218 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family:  sans-serif;
+    
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    color: rgb(36, 35, 35);
+}
+nav{
+    background-color: #16CFC1;
+    overflow: hidden;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.mainMenu{
+    width: 70%;
+    float: right;
+}
+.primary{
+    list-style: none;
+    
+
+}
+.primary li{
+    float: left;
+}
+.primary li a{
+    padding: 10px 50px;
+    display: block;
+    text-decoration: none ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+.primary li a:hover{
+    color: #333;
+}
+
+/* Main Content */
+
+.PostSection{
+    
+}
+
+.SideBar{
+    width: 30%;
+    float: left;
+    height: 1200px;
+    
+    background-color: #F0F0F0;
+
+   
+}
+.sHead{
+    background-color: #16CFC1;
+    text-align: center;
+}
+.MyContent{
+    width: 69%;
+    float: right;
+    
+   
+    height: 700px;
+}
+.rPost{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.Rimage{
+    width: 40%;
+    float: left;
+}
+.Rimage img{
+    height: 80px;
+}
+.rDatale{
+    width: 60%;
+    float: right;
+}
+.rDatale p{
+    padding-left:5px ;
+}
+
+
+
+
+.Chead{}
+.Chead h2{ 
+    background-color: #16CFC1;
+    text-align: center;
+}
+.SliderDidile{
+    margin-bottom: 20px;
+}
+.SliderDidile h2{
+    color: #16CFC1;
+}
+.post{
+    width: 32%;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+
+
+.postDt p{
+    padding: 0px 5px ;
+    margin-top: 5px;
+}
+.postDt p:hover{
+    color: #2c3e50;
+}
+.postDt h3{
+    margin-top: 5px;
+}
+.postDt h3:hover{
+    color: #16CFC1;
+}
+.postImg{}
+.postImg img{
+    height: 200px;
+    width: 100%;
+}
+.date p{
+    color:#34495e;
+}
+
+
+/* Futar  */
+.myFutar{
+    display: inline-block;
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+    background-color:#2c3e50;
+    text-align: center;
+    color: white;
+}
+.myFutar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* About */
+.about{
+
+}
+
+.aimg{
+    text-align: center;
+}
+.aimg img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    text-align: center;
+} 
+.about h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:  #16CFC1;
+}
+
+
+
+/* Contact */
+
+.regForm{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    
+}
+.form{
+    width: 600px;
+    height: 400px;
+    margin: auto    ;
+    background-color: #34495e;
+    text-align: center;
+    border-radius: 100px;
+    padding: 50px;
+    color: white;
+}
+.form h2{
+    margin-bottom: 20px;
+}
+.form input{
+    padding: 10px;
+    outline: none;
+    border: 2px solid  #16CFC1;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.form input:focus{
+    width: 250px;
+    background-color: #95a5a6;
+    
+}
+.form .submit{
+    background-color:  #16CFC1;
+    width: 150px;
+}
