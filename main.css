@@ -79,7 +79,16 @@ nav{
 .rPost{
     overflow: hidden;
     margin-bottom: 10px;
+   
 }
+.rPost::first-line{
+    color: orangered;
+   
+}
+.rPost:hover{
+    background-color: white;
+}
+
 .Rimage{
     width: 40%;
     float: left;
