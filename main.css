@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 
 
 *{
@@ -18,7 +20,7 @@ img{
     color: rgb(36, 35, 35);
 }
 nav{
-    background-color: #16CFC1;
+    background-color: orange;
     overflow: hidden;
 }
 .logo{
@@ -42,12 +44,14 @@ nav{
     display: block;
     text-decoration: none ;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 500;
+    text-transform: uppercase;
     
 }
 .primary li a:hover{
     color: #333;
+    background-color:  #16CFC1;
 }
 
 /* Main Content */
@@ -197,11 +201,11 @@ nav{
 }
 .form{
     width: 600px;
-    height: 400px;
+    height: 450px;
     margin: auto    ;
     background-color: #34495e;
     text-align: center;
-    border-radius: 100px;
+    border-radius: 20px;
     padding: 50px;
     color: white;
 }
@@ -215,13 +219,31 @@ nav{
     border-radius: 50px;
     margin-bottom: 20px;
     width: 200px;
+    background-color: transparent;
+    text-align: center;
+    transition: .2s;
+    font-family: 'Oswald', sans-serif;
 }
 .form input:focus{
-    width: 250px;
-    background-color: #95a5a6;
+    width: 300px;
+    color: white;
+    border: 1px solid orange;
+    
     
 }
 .form .submit{
     background-color:  #16CFC1;
-    width: 150px;
+    width: 130px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+.form .submit:focus{
+    width: 130px;
+}
+.form .submit:hover{
+    background-color: transparent;
+    border:  1px solid orange ;
+    color: white;
+
 }
