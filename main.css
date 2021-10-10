@@ -152,6 +152,9 @@ nav{
     color:#34495e;
 }
 
+.more{
+    text-align: center;
+}
 
 /* Futar  */
 .myFutar{
@@ -162,6 +165,7 @@ nav{
     background-color:#2c3e50;
     text-align: center;
     color: white;
+    margin-top: 70px;
 }
 .myFutar a{
     color: white;
@@ -171,24 +175,7 @@ nav{
 
 
 /* About */
-.about{
 
-}
-
-.aimg{
-    text-align: center;
-}
-.aimg img{
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    text-align: center;
-} 
-.about h2{
-    text-align: center;
-    text-transform: uppercase;
-    color:  #16CFC1;
-}
 
 
 
