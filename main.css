@@ -167,10 +167,26 @@ nav{
     color: white;
     margin-top: 70px;
 }
-.myFutar a{
-    color: white;
-    text-decoration: none;
+
+.abc{
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    padding: 2%;
+
 }
+.abc h2{
+    color: orange;
+}
+.abc a{
+    color: white;
+}
+.abc a:hover{
+    color: orange;
+}
+
 
 
 
